@@ -1,6 +1,16 @@
-#include <stdio.h>
+//#include <stdio.h>
+//
+//int main() {
+//	printf("Hello, world!\n");
+//	return 0;
+//}
 
-int main() {
-	printf("Hello, world!\n");
+#include <iostream>
+#define TEXT "Hello, world!"
+using namespace std;
+
+int main()
+{	
+	cout << TEXT << endl;
 	return 0;
 }
