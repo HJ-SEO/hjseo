@@ -1,0 +1,6 @@
+print("Let me calculate A+B.")
+print("Enter the A: ",end="")
+A=input()
+print("Enter the B: ",end="")
+B=input()
+print("The answer is ",A+B,".",sep="",end="")
